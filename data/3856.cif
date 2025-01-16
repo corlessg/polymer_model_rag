@@ -1,0 +1,66 @@
+#======================================================================
+
+# Note: Crystal region of polyethylene terephthalate
+# Common_name: Perfect crystal
+
+#----------------------------------------------------------------------
+
+data_Crystal
+
+_chemical_name_common                  'PET                         '
+_cell_length_a                         4.32278
+_cell_length_b                         5.70272
+_cell_length_c                         10.73902
+_cell_angle_alpha                      99.68579
+_cell_angle_beta                       119.48475
+_cell_angle_gamma                      111.36638
+_space_group_name_H-M_alt              'P 1'
+_space_group_IT_number                 1
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_B_iso_or_equiv
+   _atom_site_type_symbol
+   C1         1.0     0.645111      0.399864      0.898235     Biso  1.000000 C
+   C2         1.0     0.580044      0.687846      0.623979     Biso  1.000000 C
+   C3         1.0     0.430384      0.196764      0.285603     Biso  1.000000 C
+   C4         1.0     0.453902      0.297266      0.419166     Biso  1.000000 C
+   C5         1.0     0.576487      0.577479      0.487027     Biso  1.000000 C
+   C6         1.0     0.682910      0.756474      0.421764     Biso  1.000000 C
+   C7         1.0     0.659391      0.655932      0.288190     Biso  1.000000 C
+   C8         1.0     0.536802      0.375722      0.220340     Biso  1.000000 C
+   C9         1.0     0.533394      0.265377      0.083443     Biso  1.000000 C
+   C10        1.0     0.468589      0.553459      0.809241     Biso  1.000000 C
+   H1         1.0     0.732877      0.791555      0.235368     Biso  1.000000 H
+   H2         1.0     0.459267      0.175818      0.827114     Biso  1.000000 H
+   H3         1.0     0.967868      0.480305      0.942737     Biso  1.000000 H
+   H4         1.0     0.654523      0.777522      0.880359     Biso  1.000000 H
+   H5         1.0     0.145836      0.473103      0.764779     Biso  1.000000 H
+   H6         1.0     0.327688      0.980384      0.229991     Biso  1.000000 H
+   H7         1.0     0.380514      0.161640      0.472005     Biso  1.000000 H
+   H8         1.0     0.785684      0.972846      0.477355     Biso  1.000000 H
+   O1         1.0     0.471723      0.485802      0.672099     Biso  1.000000 O
+   O2         1.0     0.641849      0.467472      0.035358     Biso  1.000000 O
+   O3         1.0     0.452325      0.027577      0.023814     Biso  1.000000 O
+   O4         1.0     0.661170      0.925646      0.683629     Biso  1.000000 O
+
+# Number_of_total_atoms: 22
+# Number_of_atom_type: 3
+# Name_of_each_atom: C H O 
+# Number_of_each_atom: 10 8 4
+# Created_by: Lihua Chen (lihua.chen@mse.gatech.edu)
+# Tool: VASP
+# K-points: 4 4 2
+# Pseudopotential: PBE-HSE06
+# Material_class: MC_Pol
+# Geometry_class: GC_cry
+# Bandgap_(eV): 4.17

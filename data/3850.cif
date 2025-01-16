@@ -1,0 +1,56 @@
+# Note: Crystal region of polyethylene
+# Common_name: Perfect crystal
+
+#----------------------------------------------------------------------
+
+data_Crystal
+
+
+_chemical_name_common                  'ethylene                              '
+_cell_length_a                         6.79002
+_cell_length_b                         4.70173
+_cell_length_c                         2.56389
+_cell_angle_alpha                      90
+_cell_angle_beta                       90
+_cell_angle_gamma                      89.99996
+_space_group_name_H-M_alt              'P 1'
+_space_group_IT_number                 1
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_B_iso_or_equiv
+   _atom_site_type_symbol
+   C1         1.0     0.043180      0.064406      0.250001     Biso  1.000000 C
+   C2         1.0     0.956818      0.934928      0.750000     Biso  1.000000 C
+   C3         1.0     0.456820      0.564405      0.749999     Biso  1.000000 C
+   C4         1.0     0.543182      0.434928      0.250000     Biso  1.000000 C
+   H1         1.0     0.203697      0.036683      0.250001     Biso  1.000000 H
+   H2         1.0     0.016827      0.294946      0.250001     Biso  1.000000 H
+   H3         1.0     0.796302      0.962649      0.750000     Biso  1.000000 H
+   H4         1.0     0.983173      0.704388      0.750000     Biso  1.000000 H
+   H5         1.0     0.483173      0.794946      0.749998     Biso  1.000000 H
+   H6         1.0     0.296303      0.536684      0.749999     Biso  1.000000 H
+   H7         1.0     0.516828      0.204387      0.250001     Biso  1.000000 H
+   H8         1.0     0.703697      0.462649      0.250000     Biso  1.000000 H
+
+# Number_of_total_atoms: 12
+# Number_of_atom_type: 2
+# Name_of_each_atom: C H 
+# Number_of_each_atom: 4 8 
+# Created_by: Lihua Chen (lihua.chen@mse.gatech.edu)
+# Tool: VASP
+# K-points: 4 4 10
+# Pseudopotential: PBE-HSE06
+# Material_class: MC_Pol
+# Geometry_class: GC_cry
+# Bandgap_(eV): 8.28
+
